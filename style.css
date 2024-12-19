@@ -1,0 +1,36 @@
+body {
+    background-color: #000800;
+    color: #ddffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.editor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#editor {
+    width: 80%;
+    height: 80%;
+    background-color: #000800;
+    color: #ddffff;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rare-word {
+    color: red;
+}
+
+.ambiguous-word {
+    filter: blur(2px);
+}
